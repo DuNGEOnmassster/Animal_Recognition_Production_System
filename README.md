@@ -26,13 +26,11 @@ conda activate Animal_Recognition
 python animal_recognition.py --test <test_script_file> --extend <True_or_False> --extend_rules <extend_rules_script_file>
 ```
 
-#### Of course you can just simply start with
+#### Of course you can just simply start and adjust parameters in [code](./animal_recognition.py)
 
 ```shell script
 python animal_recognition.py
 ```
-
-#### and adjust parameters in [code](./animal_recognition.py)
 
 And here are examples for what it would look like if you run `animal_recognition.py` in terminal with test script in [dataset](./dataset/)
 
