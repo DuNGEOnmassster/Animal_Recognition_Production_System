@@ -122,7 +122,6 @@ def search(conditions, args):
     print(f"conditions = {conditions}")
     # find the every condition combination to get results, put result as new condition
     comb = get_combinations(conditions)
-    print(f"combinations = {comb}")
 
     visited = []
     cnt = 0
