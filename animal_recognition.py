@@ -144,6 +144,10 @@ def search(conditions, args):
                     # import pdb; pdb.set_trace()
             else:
                 cnt = cnt + 1
+        
+        if cnt > len(comb):
+            print("Failed to recognize corresponding animal")
+            return None
     
 
 def find_rules():
@@ -151,7 +155,7 @@ def find_rules():
     text, is_file = load_file(args.test)
     print(f"It is {is_file} that this is a file")
     conditions = get_test_pattern(text, args)
-    search(conditions, args)
+    target = search(conditions, args)
 
 
 if __name__ == "__main__":
