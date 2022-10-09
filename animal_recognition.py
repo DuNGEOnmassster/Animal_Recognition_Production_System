@@ -1,7 +1,4 @@
-from json import load
 import os
-from turtle import pd
-import numpy as np
 from itertools import combinations
 from rules import init_rules, Point
 import argparse
