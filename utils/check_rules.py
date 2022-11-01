@@ -22,7 +22,13 @@ def check_extend_rules(txt_or_txt_file):
         file = open(txt_or_txt_file, 'r')
         readfile = file.read()
         is_file = True
-        print(readfile)
+        for rule in readfile.split(sep="\n"):
+            if "：" in rule:
+                rule_segment = rule.split(sep="：")
+                if len(rule_segment) == 2:
+                    return 
+                else:
+                    return False
 
 
 if __name__ == "__main__":
