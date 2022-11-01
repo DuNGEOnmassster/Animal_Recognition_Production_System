@@ -18,6 +18,7 @@ def check_origin_rules():
 
 
 def check_extend_rules(txt_or_txt_file):
+    # Check the legitimacy of file rules
     if os.path.exists(txt_or_txt_file):
         file = open(txt_or_txt_file, 'r')
         readfile = file.read()
@@ -26,7 +27,8 @@ def check_extend_rules(txt_or_txt_file):
             if "：" in rule:
                 rule_segment = rule.split(sep="：")
                 if len(rule_segment) == 2:
-                    return 
+                    if rule_segment[0].split(sep="）")[1] == None or rule_segment[1] == None:
+                        return False
                 else:
                     return False
 
