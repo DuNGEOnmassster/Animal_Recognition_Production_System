@@ -1,5 +1,5 @@
 from rules import init_rules, Point
-
+import os
 
 def check_origin_rules():
     datasets, emissions, targets = init_rules()
@@ -17,8 +17,15 @@ def check_origin_rules():
     return True
 
 
-def check_extend_rules():
-    pass
+def check_extend_rules(txt_or_txt_file):
+    if os.path.exists(txt_or_txt_file):
+        file = open(txt_or_txt_file, 'r')
+        readfile = file.read()
+        is_file = True
+        print(readfile)
+
 
 if __name__ == "__main__":
     check_origin_rules()
+    extend_path = "./dataset/extend_rules.txt"
+    check_extend_rules(extend_path)
