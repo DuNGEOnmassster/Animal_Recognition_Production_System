@@ -1,6 +1,6 @@
 import os
 from itertools import combinations
-from rules import init_rules, Point
+from utils.rules import init_rules, Point
 import argparse
 
 
