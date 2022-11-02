@@ -1,4 +1,4 @@
-from rules import init_rules
+from utils.rules import init_rules
 import os
 
 def check_origin_rules():
