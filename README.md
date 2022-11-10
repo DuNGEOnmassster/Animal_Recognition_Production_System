@@ -41,3 +41,28 @@ without extend          |  with extend
 Hopefully you will like it.
 
 
+
+```
+Animal_Recognition_Production_System
+├─ LICENSE
+├─ README.md
+├─ __pycache__
+│  └─ rules.cpython-310.pyc
+├─ animal_recognition.py
+├─ dataset
+│  ├─ extend_rules.txt
+│  ├─ rules.txt
+│  ├─ test.txt
+│  └─ test_extend.txt
+├─ readme_data
+│  ├─ description_demo.png
+│  ├─ prob1.png
+│  └─ prob2.png
+└─ utils
+   ├─ __pycache__
+   │  ├─ check_rules.cpython-310.pyc
+   │  └─ rules.cpython-310.pyc
+   ├─ check_rules.py
+   └─ rules.py
+
+```
