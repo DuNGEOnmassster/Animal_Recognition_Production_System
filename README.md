@@ -6,6 +6,33 @@
 
 This project originates from [the repository where I restore my homework for Intelligent System](https://github.com/DuNGEOnmassster/Intelligent_System_homework.git) as an independent project.
 
+## Project Tree
+
+```
+Animal_Recognition_Production_System
+├─ LICENSE
+├─ README.md
+├─ __pycache__
+│  └─ rules.cpython-310.pyc
+├─ animal_recognition.py
+├─ dataset
+│  ├─ extend_rules.txt
+│  ├─ rules.txt
+│  ├─ test.txt
+│  └─ test_extend.txt
+├─ readme_data
+│  ├─ description_demo.png
+│  ├─ prob1.png
+│  └─ prob2.png
+└─ utils
+   ├─ __pycache__
+   │  ├─ check_rules.cpython-310.pyc
+   │  └─ rules.cpython-310.pyc
+   ├─ check_rules.py
+   └─ rules.py
+
+```
+
 ## Setup
 
 #### You are recommended to create a virtual environment with conda
@@ -42,27 +69,3 @@ Hopefully you will like it.
 
 
 
-```
-Animal_Recognition_Production_System
-├─ LICENSE
-├─ README.md
-├─ __pycache__
-│  └─ rules.cpython-310.pyc
-├─ animal_recognition.py
-├─ dataset
-│  ├─ extend_rules.txt
-│  ├─ rules.txt
-│  ├─ test.txt
-│  └─ test_extend.txt
-├─ readme_data
-│  ├─ description_demo.png
-│  ├─ prob1.png
-│  └─ prob2.png
-└─ utils
-   ├─ __pycache__
-   │  ├─ check_rules.cpython-310.pyc
-   │  └─ rules.cpython-310.pyc
-   ├─ check_rules.py
-   └─ rules.py
-
-```
